@@ -1,0 +1,106 @@
+{
+	"_meta": {
+		"sources": [
+			{
+				"json": "Leif-Projeto",
+				"abbreviation": "lp",
+				"full": "Leif - Projeto",
+				"url": "",
+				"authors": [],
+				"convertedBy": []
+			}
+		],
+		"dateAdded": 1616790387,
+		"dateLastModified": 1616790387
+	},
+	"monster": [
+		{
+			"name": "Lobo de Cryolita",
+			"source": "Leif-Projeto",
+			"page": 321,
+			"size": "L",
+			"type": "beast",
+			"alignment": [
+				"U"
+			],
+			"ac": [
+				{
+					"ac": 15,
+					"from": [
+						"natural armor"
+					]
+				}
+			],
+			"hp": {
+				"average": 51,
+				"formula": "6d10 + 18"
+			},
+			"speed": {
+				"walk": 50
+			},
+			"str": 19,
+			"dex": 15,
+			"con": 17,
+			"int": 3,
+			"wis": 12,
+			"cha": 7,
+			"skill": {
+				"perception": "+3",
+				"stealth": "+4"
+			},
+			"passive": 13,
+			"cr": "3",
+			"trait": [
+				{
+					"name": "Keen Hearing and Smell",
+					"entries": [
+						"The wolf has advantage on Wisdom ({@skill Perception}) checks that rely on hearing or smell."
+					]
+				}
+			],
+			"action": [
+				{
+					"name": "Frosty Bite",
+					"entries": [
+						"{@atk mw} {@hit 6} to hit, reach 5 ft., one target. {@h}9 ({@damage 1d8 + 4}) piercing damage plus ({@damage 1d8}) cold damage . If the target is a creature, it must succeed on a {@dc 13} Constitution saving throw of have it's speed reduced by 10 feet until the end of its next turn."
+					]
+				},
+				{
+					"name": "Howl of Ice (1/Encounter)",
+					"entries": [
+						"All creatures within 15ft. of the wolf must make a {@dc 13} Dexterity save otherwise become {@condition restrained} by ice that freezes their feet and legs."
+					]
+				}
+			],
+			"environment": [
+				"forest",
+				"hill"
+			],
+			"soundClip": {
+				"type": "external",
+				"url": "https://5e.tools/audio/bestiary/dire-wolf.mp3?v=1.125.1"
+			},
+			"traitTags": [
+				"Keen Senses"
+			],
+			"damageTags": [
+				"P"
+			],
+			"miscTags": [
+				"MW"
+			],
+			"tokenUrl": "https://cdn.discordapp.com/attachments/618531841527513089/825103016562524220/lobo.png",
+			"fluff": {
+				"images": [
+					{
+						"type": "image",
+						"href": {
+							"type": "external",
+							"url": "https://cdn.discordapp.com/attachments/618531841527513089/825103041773436978/previewfile_1554561908.jpg"
+						}
+					}
+				]
+			}
+		}
+	]
+}
